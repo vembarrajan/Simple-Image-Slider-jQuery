@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hotel Fantastique</title>
+		<link rel="stylesheet" href="css.css" />
+		<!--[if lt IE 9]>
+		<script>
+			document.createElement('header');
+			document.createElement('nav');
+			document.createElement('section');
+			document.createElement('article');
+			document.createElement('aside');
+			document.createElement('footer');
+		</script>
+		<![endif]-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	
+	<body>
+	
+		<header class="header">
+			<h1 class="hotel_name">Hotel Fantastique <span class="stars">★★★★★</span></h1>
+			<address class="hotel_address">72b Rue de Awesome, 75001, Paris, France</address>
+		</header>
+		
+		<section class="photos">
+			<ul>
+				<li class="one_photo"><a href="img/1_large.jpg"><img src="img/1_thumb.jpg" alt="description of photo 1" /></a></li>
+				<li class="one_photo"><a href="img/2_large.jpg"><img src="img/2_thumb.jpg" alt="description of photo 2" /></a></li>
+				<li class="one_photo"><a href="img/3_large.jpg"><img src="img/3_thumb.jpg" alt="description of photo 3" /></a></li>
+				<li class="one_photo"><a href="img/4_large.jpg"><img src="img/4_thumb.jpg" alt="description of photo 4" /></a></li>
+				<li class="one_photo"><a href="img/5_large.jpg"><img src="img/5_thumb.jpg" alt="description of photo 5" /></a></li>
+				<li class="one_photo"><a href="img/6_large.jpg"><img src="img/6_thumb.jpg" alt="description of photo 6" /></a></li>
+				<li class="one_photo"><a href="img/7_large.jpg"><img src="img/7_thumb.jpg" alt="description of photo 7" /></a></li>
+				<li class="one_photo"><a href="img/8_large.jpg"><img src="img/8_thumb.jpg" alt="description of photo 8" /></a></li>
+				<li class="one_photo"><a href="img/9_large.jpg"><img src="img/9_thumb.jpg" alt="description of photo 9" /></a></li>
+				<li class="one_photo"><a href="img/10_large.jpg"><img src="img/10_thumb.jpg" alt="description of photo 10" /></a></li>
+				<li class="one_photo"><a href="img/11_large.jpg"><img src="img/11_thumb.jpg" alt="description of photo 11" /></a></li>
+				<li class="one_photo"><a href="img/12_large.jpg"><img src="img/12_thumb.jpg" alt="description of photo 12" /></a></li>
+				<li class="one_photo"><a href="img/13_large.jpg"><img src="img/13_thumb.jpg" alt="description of photo 13" /></a></li>
+				<li class="one_photo"><a href="img/14_large.jpg"><img src="img/14_thumb.jpg" alt="description of photo 14" /></a></li>
+			</ul>
+		</section>
+		
+		<section class="description">
+			<h2>Description</h2>
+			<p>Located in the heart of Paris, this 5-star hotel offers elegant guest rooms in a Hausmannian-style building. It features a fitness centre, a concierge and a tour desk with ticket service.</p>
+			<p>Decorated in a unique style, the air-conditioned guest rooms at the Hotel du Louvre are equipped with satellite TV, a minibar and free Wi-Fi access. Some rooms feature a seating area. All rooms have a private bathroom, some include marble features.</p>
+			<p>The hotel restaurant, Brasserie du Louvre, has a traditional Parisian decor and serves traditional French cuisine. A buffet breakfast is served every morning. Guests can also enjoy a cocktail and jazz evenings twice a week in the Defender Bar.</p>
+			<p>The 4 facades and terrace of this hotel overlook the famous Louvre Museum, the Opéra Garnier and the Comédie Française theatre.</p>
+			<p>Hotel du Louvre is situated 2 minutes from Palais Royal Metro Station, providing direct access to the Champs Elysees and the Place de la Bastille. Public parking is available nearby.</p>
+		</section>
+		
+		<section class="facilities">
+			<h2>Facilities</h2>
+			<ul>
+				<li>Free Wifi</li>
+				<li>Swimming Pool</li>
+				<li>Gym</li>
+				<li>24/7 reception</li>
+				<li>Concierge</li>
+				<li>Restaurant</li>
+				<li>Free Parking</li>
+				<li>Shoe-Shine</li>
+				<li>Satellite TV</li>
+				<li>Room Service</li>
+			</ul>
+		</section>
+		
+		<section class="rooms">
+			<h2>Select Your Room</h2>
+			<form method="post" action="" class="rooms_table_form">
+				<table class="rooms_table" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<th class="room_name">Room Name</th>
+							<th class="room_occupancy">Occupancy</th>
+							<th class="room_price">Price per Room</th>
+							<th class="room_quantity">No. Rooms</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="one_room">
+							<td class="room_name">Basic 2 Bed</td>
+							<td class="room_occupancy">2</td>
+							<td class="room_price">&euro;88.99</td>
+							<td class="room_quantity">
+								<select name="room[basic2]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">Basic Family Room</td>
+							<td class="room_occupancy">4</td>
+							<td class="room_price">&euro;98.99</td>
+							<td class="room_quantity">
+								<select name="room[basicfamily]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">Deluxe 2 Bed</td>
+							<td class="room_occupancy">2</td>
+							<td class="room_price">&euro;109.99</td>
+							<td class="room_quantity">
+								<select name="room[deluxe2]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">Deluxe Family Room</td>
+							<td class="room_occupancy">7</td>
+							<td class="room_price">&euro;112.99</td>
+							<td class="room_quantity">
+								<select name="room[deluxefamily]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">Bridal Suite</td>
+							<td class="room_occupancy">2</td>
+							<td class="room_price">&euro;167.99</td>
+							<td class="room_quantity">
+								<select name="room[bridalsuite]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">President Suite</td>
+							<td class="room_occupancy">2</td>
+							<td class="room_price">&euro;301.99</td>
+							<td class="room_quantity">
+								<select name="room[presidentsuite]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">One+One</td>
+							<td class="room_occupancy">2</td>
+							<td class="room_price">&euro;78.99</td>
+							<td class="room_quantity">
+								<select name="room[oneplusone]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">Single Room</td>
+							<td class="room_occupancy">1</td>
+							<td class="room_price">&euro;28.99</td>
+							<td class="room_quantity">
+								<select name="room[single]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">Queen Room</td>
+							<td class="room_occupancy">2</td>
+							<td class="room_price">&euro;99.99</td>
+							<td class="room_quantity">
+								<select name="room[queen]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">Basement 1 Bed</td>
+							<td class="room_occupancy">2</td>
+							<td class="room_price">&euro;9.99</td>
+							<td class="room_quantity">
+								<select name="room[basement1]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>
+						<tr class="one_room">
+							<td class="room_name">Mega XL Suite</td>
+							<td class="room_occupancy">9</td>
+							<td class="room_price">&euro;412.99</td>
+							<td class="room_quantity">
+								<select name="room[megaxl]">
+									<option value="0" selected="selected">0</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+						</tr>																																																		
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="4">
+								<button class="button" type="submit">Book Now</button>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</form>
+		</section>
+
+		<section class="reviews">
+			<h2>Reviews</h2>
+			<ul class="reviews_list">
+				<li class="one_review">
+					<strong class="review_score">5</strong>
+					<blockquote class="review_content">
+						Pellentesque ligula nibh, lacinia eget pharetra ut, vulputate vitae odio. Donec non mattis nisi. Pellentesque elit leo, tincidunt nec felis vitae, aliquet imperdiet purus. In elit ante, vestibulum non accumsan at, volutpat eget dolor. Quisque ut tincidunt elit. Curabitur rutrum dignissim enim ac aliquet. Curabitur et aliquam nisl.
+						<cite>Malcolm Reynolds</cite>
+					</blockquote>
+				</li>	
+				<li class="one_review">
+					<strong class="review_score">8</strong>
+					<blockquote class="review_content">
+						Duis ac nisi id lorem rhoncus tempus eu sit amet nisi. Aenean ultrices congue ligula, ac molestie velit ultricies a. Nulla ac nunc et nisi placerat interdum sit amet ut erat. Integer vulputate nulla id orci cursus, eget ullamcorper justo ultricies. Nulla lorem dui, euismod non porttitor eu, sagittis in lacus. In suscipit lectus non viverra luctus. Pellentesque egestas, dolor at luctus eleifend, velit dui viverra risus, ac rutrum sapien ante at massa. Donec imperdiet consequat laoreet.
+						<cite>Zoe Washburne</cite>
+					</blockquote>
+				</li>	
+				<li class="one_review">
+					<strong class="review_score">3</strong>
+					<blockquote class="review_content">
+						Etiam posuere, magna sit amet ullamcorper auctor, odio urna tempor velit, sit amet tincidunt lorem diam a velit. Integer a dapibus nunc. In iaculis vel sem ut gravida.
+						<cite>Hoban Washburne</cite>
+					</blockquote>
+				</li>	
+				<li class="one_review">
+					<strong class="review_score">10</strong>
+					<blockquote class="review_content">
+						Etiam condimentum sodales dui in vestibulum. Vivamus euismod egestas porttitor. Proin dictum tempor euismod. Suspendisse elit nulla, elementum eu ornare in, tempus in massa. Proin elit sem, posuere nec tempor eget, suscipit sit amet dui. Aliquam in vehicula lorem. Praesent vitae vestibulum ante, nec vestibulum metus. Morbi commodo diam in leo semper ornare. Phasellus et diam magna.
+						<cite>Inara Serra</cite>
+					</blockquote>
+				</li>	
+				<li class="one_review">
+					<strong class="review_score">9</strong>
+					<blockquote class="review_content">
+						Maecenas cursus ut erat vitae vestibulum. Fusce feugiat dignissim augue consequat condimentum. Donec risus felis, ultricies a velit sed, varius ullamcorper enim. Suspendisse ultrices non tortor non lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						<cite>Jayne Cobb</cite>
+					</blockquote>
+				</li>	
+				<li class="one_review">
+					<strong class="review_score">4</strong>
+					<blockquote class="review_content">
+						Donec adipiscing lacus sed neque cursus ullamcorper. Vestibulum tellus lectus, molestie vitae augue et, egestas convallis mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec porttitor mi vitae mauris aliquam, non accumsan odio tincidunt. Aliquam semper enim quam, ac cursus lectus dignissim vitae. Suspendisse nec rutrum ligula.
+						<cite>Kaylee Frye</cite>
+					</blockquote>
+				</li>	
+				<li class="one_review">
+					<strong class="review_score">7</strong>
+					<blockquote class="review_content">
+						Nullam et leo placerat lectus fringilla varius vel a lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nibh eros, blandit at aliquam eu, ullamcorper eu diam. Etiam id viverra lacus, rutrum suscipit nulla. Maecenas adipiscing, mi sit amet iaculis congue, urna massa vestibulum tortor, a tempus nibh tortor id dui.
+						<cite>Simon Tam</cite>
+					</blockquote>
+				</li>
+				<li class="one_review">
+					<strong class="review_score">2</strong>
+					<blockquote class="review_content">
+						Maecenas semper, orci eget cursus aliquam, orci tellus sodales urna, nec varius nisi arcu gravida velit. Proin ultrices egestas nunc, eget dapibus erat sollicitudin in. Fusce fermentum dignissim ipsum sollicitudin tincidunt. Aliquam erat volutpat. Suspendisse in ornare ante.
+						<cite>River Tam</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">10</strong>
+					<blockquote class="review_content">
+						Nullam purus ante, rhoncus ac malesuada at, bibendum nec urna. Cras lobortis viverra feugiat. Praesent sapien elit, sagittis vel orci sed, congue consequat nulla.
+						<cite>Derrial Book</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">9</strong>
+					<blockquote class="review_content">
+						Donec malesuada semper lectus sed sagittis. Sed laoreet consectetur tortor, ac tempus ipsum malesuada non. Aenean dapibus leo sed sapien rhoncus, at dapibus ligula porta. Morbi tincidunt, urna eget ullamcorper aliquam, augue lectus placerat orci, tristique aliquet ipsum nisi id orci. Nulla vulputate lectus justo, eu dapibus lectus sodales ac. Donec volutpat nibh mi. Proin eu justo vitae dolor accumsan ultrices vel non ante.
+						<cite>Sheriff Bourne</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">3</strong>
+					<blockquote class="review_content">
+						Sed consectetur, lorem vitae laoreet tempus, neque elit fringilla nisl, nec tempus urna quam eu nulla. Nunc tempor nec magna vel viverra. In dapibus aliquam velit, ut malesuada nibh ornare eget. Suspendisse in risus posuere, hendrerit odio id, tincidunt lacus. Nunc fermentum metus sit amet mauris pellentesque, vitae sollicitudin dui facilisis. Etiam at velit id dolor rhoncus porttitor. Vestibulum quis blandit felis.
+						<cite>Lawrence Dobson</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">7</strong>
+					<blockquote class="review_content">
+						Suspendisse in risus posuere, hendrerit odio id, tincidunt lacus. Nunc fermentum metus sit amet mauris pellentesque, vitae sollicitudin dui facilisis. Etiam at velit id dolor rhoncus porttitor. Vestibulum quis blandit felis.
+						<cite>Jubal Early</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">8</strong>
+					<blockquote class="review_content">
+						Phasellus venenatis tortor ac lectus dapibus, sit amet pellentesque turpis mollis. Nam laoreet magna non leo facilisis auctor. Fusce neque augue, lobortis eget orci vel, lobortis porta lectus. Fusce venenatis, metus quis accumsan auctor, ipsum lectus volutpat tellus, viverra vulputate risus dolor porta lacus
+						<cite>Fanty and Mingo</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">1</strong>
+					<blockquote class="review_content">
+						Sed molestie ipsum ac diam feugiat tempus. Donec sed mi tortor. Donec dolor augue, tincidunt sed dignissim ac, congue ac sapien. Morbi molestie nibh eget neque rutrum tincidunt. Quisque adipiscing pulvinar massa eu laoreet. Aenean ipsum nisl, convallis eget tortor nec, convallis consequat tellus.
+						<cite>Stitch Hessian</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">10</strong>
+					<blockquote class="review_content">
+						Etiam porttitor ut massa sit amet pellentesque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur facilisis commodo nulla ut laoreet. Integer vel felis sit amet dolor sollicitudin gravida. Nam quis congue lorem. Aenean quis purus leo. Nunc iaculis enim odio, eu feugiat augue porta sit amet. Fusce quis commodo nisl. Nunc laoreet leo vel egestas volutpat. Suspendisse et cursus leo.
+						<cite>Fess Higgins</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">9</strong>
+					<blockquote class="review_content">
+						Nunc vel suscipit mi. Morbi semper diam urna, sit amet elementum turpis egestas nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer aliquet mi at dui blandit accumsan. Aliquam laoreet enim vel volutpat fermentum. Etiam feugiat arcu mi, sed blandit magna dictum vitae. Ut tristique id nunc ut molestie. Curabitur et augue rhoncus, consectetur mauris vel, laoreet sapien.
+						<cite>Magistrate Higgins</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">6</strong>
+					<blockquote class="review_content">
+						Mauris in ligula quis orci auctor blandit. Maecenas venenatis quis mi vitae sagittis. Sed tincidunt laoreet mi nec ullamcorper. Pellentesque elementum ut lacus ac iaculis. Sed suscipit ipsum ut bibendum ullamcorper. Cras ac est risus. Praesent in risus velit. Donec placerat hendrerit nibh vitae auctor.
+						<cite>Dr. Mathias</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">8</strong>
+					<blockquote class="review_content">
+						Sed ut ipsum in tellus tristique venenatis quis sit amet nibh. Phasellus pretium eget est ac consequat. Vivamus accumsan semper dui, nec vestibulum mauris rutrum sollicitudin. Mauris quis lorem fermentum, dignissim eros faucibus, tempor justo. Donec nec interdum risus.
+						<cite>Adelei Niska</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">9</strong>
+					<blockquote class="review_content">
+						Sed felis erat, laoreet vitae tincidunt non, interdum et elit. Nunc sit amet malesuada lorem. Suspendisse sagittis nulla quis elit pulvinar accumsan. Sed massa nibh, consequat ut mi in, consectetur pharetra nisl. Proin adipiscing semper quam, eget vestibulum risus pharetra ut. Ut sed elit neque.
+						<cite>Tracey Smith</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">4</strong>
+					<blockquote class="review_content">
+						Nam sit amet elit in nibh faucibus bibendum sed quis metus. Vivamus aliquam orci sed porta rhoncus. Mauris aliquam purus ut gravida gravida. Mauris sit amet quam enim. Aenean fringilla sed ligula luctus adipiscing. Donec ac augue tortor. In ultricies luctus nulla.
+						<cite>Atherton Wing</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">3</strong>
+					<blockquote class="review_content">
+						Mauris id adipiscing justo, eget volutpat mauris. Sed lorem ligula, fermentum at interdum eu, pulvinar vel felis. Aliquam malesuada eros augue, at sollicitudin urna accumsan ultrices.
+						<cite>Monty</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">6</strong>
+					<blockquote class="review_content">
+						Sed urna est, sagittis eu ligula sit amet, pellentesque lacinia velit. Sed imperdiet enim non risus bibendum semper. Curabitur gravida consequat magna, nec lobortis elit pretium nec. Morbi eget lacus eget ipsum vehicula pharetra. Donec vehicula aliquam euismod. Nulla facilisi. Donec non est nec eros volutpat placerat in et massa.
+						<cite>Lenore</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">2</strong>
+					<blockquote class="review_content">
+						Aliquam scelerisque ullamcorper vehicula. Aenean ut aliquam mi, nec faucibus tortor. Aliquam erat volutpat. Pellentesque et pellentesque mi. Aenean sem neque, cursus lacinia lectus in, egestas aliquet lorem. Sed aliquam, dolor in hendrerit fringilla, dui arcu pulvinar orci, non suscipit urna nibh id odio.
+						<cite>Mr. Universe</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">8</strong>
+					<blockquote class="review_content">
+						Morbi vel nisi vel nibh rhoncus vestibulum non sagittis nisl. Curabitur varius dolor massa, ut pulvinar mauris blandit a. Phasellus vestibulum arcu turpis, ut consequat risus sagittis ut. Proin non elit sit amet magna lacinia molestie. Sed eget vulputate augue. In hac habitasse platea dictumst. Cras imperdiet leo nec ante dapibus, in mollis risus interdum. Nullam pharetra nibh eu diam tempus, eget lobortis metus vulputate.
+						<cite>Sir Warwick Harrow</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">9</strong>
+					<blockquote class="review_content">
+						Curabitur quis augue cursus, cursus massa ac, dapibus magna. Curabitur non sapien vel lorem pellentesque rhoncus. Nam sagittis, metus aliquet malesuada egestas, leo purus cursus turpis, tempor pharetra tellus nibh posuere turpis. Cras viverra, nisi eget ornare suscipit, erat velit facilisis elit, quis interdum justo magna a tortor. Donec condimentum quam id felis sollicitudin porttitor. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+						<cite>Simon Tam</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">10</strong>
+					<blockquote class="review_content">
+						Quisque eros sapien, tempus vel ullamcorper nec, faucibus eget ante. Curabitur vel velit ac libero tempus fringilla in dignissim ligula. Integer eget laoreet ligula, eget ultricies ligula. Donec convallis augue a dolor sagittis feugiat. Aliquam adipiscing, ipsum eget pulvinar pulvinar, elit nisl vestibulum ligula, id interdum felis sem quis mi. Sed vel leo nisl. Sed consequat pharetra diam, vitae ultrices augue varius ac.
+						<cite>Dr. Caron</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">8</strong>
+					<blockquote class="review_content">
+						Etiam elementum at est sit amet sagittis. Curabitur euismod tellus leo, vitae porta justo ultricies vitae. Aliquam posuere nunc sit amet mauris interdum lacinia
+						<cite>Bridget</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">7</strong>
+					<blockquote class="review_content">
+						Uspendisse mollis leo et nisl laoreet, a molestie justo consectetur. Aliquam et leo vulputate, tincidunt massa vel, volutpat leo. Suspendisse potenti.
+						<cite>Bester</cite>
+					</blockquote>
+				</li>		
+				<li class="one_review">
+					<strong class="review_score">8</strong>
+					<blockquote class="review_content">
+						non convallis enim porttitor. Nulla ut fermentum sem. Aliquam tincidunt, dui malesuada venenatis pulvinar, justo tellus tempus nulla, sit amet pretium orci metus sed purus. Phasellus lobortis cursus lacus vitae volutpat. Nulla at velit ut orci varius placerat. Aenean est elit, adipiscing et nunc varius, accumsan tempus magna. Donec consectetur orci nec mattis hendrerit.
+						<cite>Badger</cite>
+					</blockquote>
+				</li>																																																																																																																																																																																																																				
+			</ul>
+		</section>
+	
+		<section class="footer">
+			&copy;2014 Booking.com
+		</section>
+		
+		<script src="jquery-1.11.1.min.js"></script>
+		<script src="js.js"></script>
+	</body>
+</html>
