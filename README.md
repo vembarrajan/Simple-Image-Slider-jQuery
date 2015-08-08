@@ -9,28 +9,28 @@ Yes admitted you could get a plugin and there are a few good ones out there. jQu
 You make an infinite slider with just 5 lines of code (and a whole jQuery library to support it). 
 
 Pseudo HTML Code<br>
-    Create a container for all the images.
+    Create a container for all the images.<br>
 
-Pseudo CSS Code
-    First we put a property of overflow:hidden on the container so all the images apart from the first one are hidden.
-    Next we make the list wide enough to encompass all the images
-    Then we float all the images left so our list is just one long list of images.
+Pseudo CSS Code<br>
+    First we put a property of overflow:hidden on the container so all the images apart from the first one are hidden.<br>
+    Next we make the list wide enough to encompass all the images<br>
+    Then we float all the images left so our list is just one long list of images.<br>
 
-Pseudo Javascript Code
-    when page is loaded
-    wait 5 seconds
-    move the list of images left by the individual images width
-    remove image from list
-    add it to the end of the list
-    then start the cycle again
+Pseudo Javascript Code<br>
+    when page is loaded<br>
+    wait 5 seconds<br>
+    move the list of images left by the individual images width<br>
+    remove image from list<br>
+    add it to the end of the list<br>
+    then start the cycle again<br>
 
-Actual Code
-    var t = setInterval(function(){
-	  	$(".slider ul").animate({marginLeft:-200},1000,function(){
-			$(this).find("li:last").after($(this).find("li:first"));
-			$(this).css({"margin-left":0});
-	  	})
-	  },2000);
+Actual Code<br>
+    var t = setInterval(function(){<br>
+	  	$(".slider ul").animate({marginLeft:-200},1000,function(){<br>
+			$(this).find("li:last").after($(this).find("li:first"));<br>
+			$(this).css({"margin-left":0});<br>
+	  	})<br>
+	  },2000);<br>
 	  
 Contributions
 
