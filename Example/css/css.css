@@ -1,0 +1,68 @@
+header, nav, section, article, aside, footer {
+   display: block;
+}
+
+html {
+	padding: 30px 0 100px 0;
+	margin: 0;
+	border-top: 70px solid #003580;
+	background-color: #fff;
+	color: #333;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	position: relative;
+}
+
+body {
+	padding: 0;
+	margin: 0 auto;
+	width: 960px;
+}
+
+section {
+	margin: 0 0 20px 0;
+	clear: both;
+}
+
+h1 {
+	font-size: 32px;
+	color: #0896ff;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: normal;
+	color: #666;
+}
+
+/* header */
+
+.header {
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.text_name {
+	margin: 0 0 5px 0;
+}
+.slider {
+	width: 800px;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+.slider ul {
+	width: 1600px;
+	padding: 0;
+	margin: 0;
+}
+
+.slider ul li {
+	width:200px;
+	text-align: center;
+	height: 200px;
+	list-style: none;
+	float:	left;
+}
+
