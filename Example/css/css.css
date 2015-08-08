@@ -48,7 +48,7 @@ h2 {
 }
 .slider {
 	width: 800px;
-	overflow:hidden;
+	overflow:hidden; /* overflow:hidden on the container so all the images apart from the first one are hidden. */
 	margin:0 auto;
 }
 
