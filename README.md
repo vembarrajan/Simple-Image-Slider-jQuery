@@ -1,6 +1,6 @@
 # Simple-Image-Slider-jQuery
 
-So how do we do a iamge slider?
+So how do we do a image slider?
 
 Get a plugin I hear you cry!!!
 
@@ -32,6 +32,9 @@ Actual Code<br>
 	  	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})<br>
 	  &nbsp;&nbsp;&nbsp;&nbsp;},2000);<br>
 	  
+<br>
+See Example folder for the full demo of the jQuery Slider.<br> 
+
 Contributions
 
 Contributions are welcome!
