@@ -8,7 +8,7 @@ Yes admitted you could get a plugin and there are a few good ones out there. jQu
 
 You make an infinite slider with just 5 lines of code (and a whole jQuery library to support it). 
 
-Pseudo HTML Code
+Pseudo HTML Code<br>
     Create a container for all the images.
 
 Pseudo CSS Code
